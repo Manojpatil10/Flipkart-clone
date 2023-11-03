@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Tilt+Prism&display=swap');
+
+body{
+    background-color: blanchedalmond;
+}
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-weight: bold;
+    border: 2px solid white;
+}
+nav{
+    display: flex;
+    
+}
+nav ul{
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+    font-family: 'Baloo 2', cursive;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 105px;
+    padding: 0 25px;
+}
+.container{
+    min-height:calc(100vh - 8vh - 8vh);
+    justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+  
+}
+.search input{
+    width: 30vw;
+    height: 30px;
+    border-radius: 3px;
+    border: 3px solid black;
+    margin: 0 16px 0 25px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+}
+.search input:hover{
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+}
+.slider{
+    width: 80vw;
+    margin: 8px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 95vw;
+    margin: 37px auto;
+    font-family: 'Baloo 2', cursive;
+}
+.card h2{
+    margin: 20px 0px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 28px;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.color{
+    color: rgb(148, 195, 78);
+}
+
+footer{
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    
+}
